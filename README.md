@@ -1,3 +1,10 @@
+# Wild Code School
+# React Project
+# Personal Portfolio
+![Image of Yaktocat](https://github.com/Teixeira66/React-Portfolio/blob/master/img/DJI_01842.mp4)
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
