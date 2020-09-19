@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
-import Navbar from "./components";
+import NavBar from './components/Navbar/Navbar';
 import BackgroundVideo from './components/Background';
 
 
 
 
-class App extends React.Component {
+class App extends Component {
   render () {
     return (
       <div>
