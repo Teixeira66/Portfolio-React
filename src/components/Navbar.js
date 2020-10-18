@@ -17,26 +17,4 @@ const Navbar = props => (
 
 export default Navbar;
 
-/*function myFunction() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
- }
 
- // find a way to tag diferent styles for the main project
-
- // one way could be getelementby.... and tag and we select give it a style black /white and thats it
-
-
- 
- //see this aproach and understand if i could use it
- const RightNav = () => {
-  return (
-    <ul>
-      <li>Home</li>
-      <li>About Us</li>
-      <li>Contact Us</li>
-      <li>Sign In</li>
-      <li>Sign Up</li>
-    </ul>
-  )
-}*/
