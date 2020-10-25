@@ -26,7 +26,7 @@ class Main extends Component {
       skills needed to jump in to any company and give my best</p2>
 
        <div class="feel_free_to_ask_me_something">feel free to ask me anything
-     <br></br>
+     <br/><br/>
       <a href="mailto:carlos_teixeira66@hotmail.com"><i class="fa fa-envelope"></i></a>
 
         </div>

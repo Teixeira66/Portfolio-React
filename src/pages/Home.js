@@ -5,7 +5,7 @@ import React, {Component}from 'react';
 
 
 
-class Home extends Component{
+class home extends Component{
   render() {
       return (
   
@@ -29,9 +29,9 @@ class Home extends Component{
       skills needed to jump in to any company and give my best</p2>
 
     <div class="feel_free_to_ask_me_something">feel free to ask me anything
-      <br>
+      <br/>
       <a href="mailto:carlos_teixeira66@hotmail.com"><i class="fa fa-envelope"></i></a>
-      </br>
+      <br/>
       </div>
     </div>
 
@@ -39,4 +39,4 @@ class Home extends Component{
   }
 }
 
-export default Home;
+export default home;
