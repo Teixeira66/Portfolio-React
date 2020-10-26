@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
 import {Switch,Route,BrowserRouter} from 'react-router-dom';
+import background from "./components/Background";
 
 
-import Home from './pages/home';
-import Notes from './pages/notes';
-import Work from './pages/work';
+
+import Home from './pages/Home';
+import Notes from './pages/Notes';
+import Work from './pages/Work';
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 
-import './App.css';
+
 
 
 
@@ -31,12 +33,20 @@ class App extends Component {
       title: 'Work component',
       text: 'something yes, could be good'
     },
+    darkmode:{
+      title: 'Work component',
+      text: 'something yes, could be good'
+    }
   }
-
+  darkmode = dark => {
+    this.setState({ dark });
+  };
   render() {
       return (
         <BrowserRouter>
+        
         <div className="App">
+     
         <Navbar/>
           <Switch>
             <Route
@@ -48,15 +58,17 @@ class App extends Component {
                   text={this.state.home.text}
                 />}
             />
-            <Route path='/notes' component={Notes} />
-            <Route path='/work' component={Work} />
+            <Route path='/Notes' component={Notes} />
+            <Route path='/Work' component={Work} />
           </Switch>
           <Footer/>
         </div>
+      
         </BrowserRouter>
       );
   }
 }
+
 
 
 

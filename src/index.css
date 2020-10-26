@@ -24,7 +24,16 @@ body {
   font-size: x-large;
 }
 
-
+.background-video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+}
+  
+  
 
 /* Header/logo Title */
 .header {
@@ -34,7 +43,7 @@ body {
   padding: 300px;
   text-align: center;
   /* Avoid presenting informational images in CSS backgrounds, so, no alt attribute on the next image*/
-  /*background-image: url("./img/carlos1.jpg");*/
+  
   background-size: cover;
   background-repeat: no-repeat;
   color: #F3904F;
