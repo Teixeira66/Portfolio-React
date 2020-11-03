@@ -1,17 +1,4 @@
-/*body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-*/
 * {
   box-sizing: border-box;
   
@@ -22,17 +9,12 @@ body {
   font-family: 'Oregano';
   margin: 0;
   font-size: x-large;
+  background-image: url("/img/myvideo.gif");
+  background-size: cover;
+  height: 100vh;
+  
 }
 
-.background-video{
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    transform: translateX(calc((100% - 100vw) / 2));
-}
-  
   
 
 /* Header/logo Title */
@@ -65,7 +47,7 @@ body {
 /* Dark mode style */
 .dark-mode {
   background-color:black ;
-  color: white;
+  
 }
 
 /* Sticky navbar */
@@ -75,6 +57,8 @@ body {
   background: linear-gradient(to right, #3B4371, #F3904F); 
   position: -webkit-sticky;
   top: 0;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 /* Style the navigation bar links */
@@ -86,6 +70,7 @@ body {
   text-decoration: none;
   color:#F3904F;
   font-size: medium;
+  
 }
 /* Button Dark Mode */
 .navbar button {
@@ -104,7 +89,10 @@ body {
     font-family: 'Bungee Shade';
     cursor: pointer;
 }
-
+.navbar ul {
+  text-decoration: none;
+  list-style-type: none;
+}
 
 /* Change color on hover */
 .navbar a:hover {
@@ -117,24 +105,22 @@ body {
 /* Footer */
 .footer {
   padding: 15px;
-  text-align: center;
+  text-align: justify;
   background: -webkit-linear-gradient(to right, #3B4371, #F3904F);  
   background: linear-gradient(to right, #3B4371, #F3904F); 
   color:#F3904F;
   flex-wrap: wrap;
   display: inline-flex;
   width: 100%;
-
-}
-
-
-.footer i {
-  padding: 15px 20px;
-  font-size: large;
-  color: #F3904F;
   
-
 }
+
+.footer__social{
+  padding: 15px 20px;
+  text-align: justify;
+  color: #F3904F;
+}
+
 
 /* Home page Text */
 .presentation {
