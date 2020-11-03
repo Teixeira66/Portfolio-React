@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { FaEnvelope } from "react-icons/fa";
 
 
 
@@ -27,7 +28,9 @@ class Main extends Component {
 
        <div class="feel_free_to_ask_me_something">feel free to ask me anything
      <br/><br/>
-      <a href="mailto:carlos_teixeira66@hotmail.com"><i class="fa fa-envelope"></i></a>
+      <a href="mailto:carlos_teixeira66@hotmail.com">
+      <FaEnvelope size="30" color="black" />
+      </a>
 
         </div>
     </div>

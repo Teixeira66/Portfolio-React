@@ -9,10 +9,7 @@ body {
   font-family: 'Oregano';
   margin: 0;
   font-size: x-large;
-  background-image: url("/img/myvideo.gif");
-  background-size: cover;
-  height: 100vh;
-  
+ 
 }
 
   
@@ -20,15 +17,16 @@ body {
 /* Header/logo Title */
 .header {
   font-family: 'Oregano';
+  background-image: url("./img/myvideo.gif");
   width: 100%;
   height: auto;
   padding: 300px;
   text-align: center;
+  flex-wrap: wrap;
   /* Avoid presenting informational images in CSS backgrounds, so, no alt attribute on the next image*/
-  
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  color: #F3904F;
+  color:#F3904F;
   
 }
 
@@ -69,7 +67,7 @@ body {
   padding: 15px 20px;
   text-decoration: none;
   color:#F3904F;
-  font-size: medium;
+  font-size: x-large
   
 }
 /* Button Dark Mode */
