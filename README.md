@@ -1,7 +1,7 @@
 # Wild Code School
 # React Project
 # Personal Portfolio
-![Image of Yaktocat](https://github.com/Teixeira66/React-Portfolio/blob/master/img/DJI_01842.mp4)
+![Image of Yaktocat](https://github.com/Teixeira66/Portfolio-React/blob/master/src/img/myvideo.gif)
 
 
 
