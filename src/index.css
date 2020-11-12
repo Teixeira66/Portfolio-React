@@ -178,7 +178,7 @@ font-size: 50px;
 /* Work page examples */
 
 .examples1 {
-
+  
 padding: 200px;
 }
 
@@ -212,4 +212,9 @@ padding: 300px;
   float: none;
   width: 100%;
 }
+}
+
+.iframe {
+  border: 1px solid black;
+  width: 100%;
 }
